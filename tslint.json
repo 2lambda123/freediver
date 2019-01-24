@@ -1,0 +1,46 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+      "tslint:latest",
+      "tslint-react",
+      "tslint-config-airbnb",
+      "tslint-eslint-rules",
+      "tslint-config-prettier"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "jsRules": {},
+  "rules": {
+      "no-default-export": true,
+      "import-name": false,
+      "object-literal-sort-keys": false,
+      "ordered-imports": [true, {
+          "grouped-imports": true
+      }],
+      "semicolon": [
+          true,
+          "always",
+          "ignore-bound-class-methods"
+      ],
+      "quotemark": [
+          true,
+          "single",
+          "jsx-double"
+      ],
+      "brace-style": [
+          true,
+          "1tbs",
+          {
+              "allowSingleLine": false
+          }
+      ],
+      "variable-name": [true, "allow-pascal-case", "ban-keywords"],
+      "no-submodule-imports": false,
+      "interface-name": false,
+      "jsx-boolean-value": false,
+      "object-shorthand-properties-first": false,
+      "jsx-alignment": true,
+      "class-name": true
+  }
+}
