@@ -5,4 +5,4 @@ const AppNavigator = createStackNavigator({
   Home,
 });
 
-export default createAppContainer(AppNavigator);
+export default Home;

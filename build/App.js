@@ -5,4 +5,4 @@ const home_1 = require("./pages/home");
 const AppNavigator = react_navigation_1.createStackNavigator({
     Home: home_1.Home,
 });
-exports.default = react_navigation_1.createAppContainer(AppNavigator);
+exports.default = home_1.Home;
